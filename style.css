@@ -432,3 +432,12 @@ header {
     padding: 6px 5px;
     color: gray;
 }
+
+.end-column a {
+    width: 190px;
+    font-size: 1rem;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 15px 0;
+
+}
