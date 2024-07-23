@@ -380,13 +380,25 @@ header {
 }
 
 .email button {
-    width: 150px;
-    border-radius: 6px;
-    border: 1px solid rgb(252, 104, 104);
-    background-color: rgb(253, 104, 104);
-    font-size: 1.1rem;
-    margin-left: 6px;
+    background-color: #ff5722;
+    /* Butonun arka plan rengini belirler */
     color: white;
+    /* Buton üzerindeki metnin rengini belirler */
+    border: none;
+    /* Butonun kenar çizgilerini kaldırır */
+    padding: 10px 20px;
+    /* Butonun iç padding'ini ayarlar */
+    border-radius: 5px;
+    /* Butonun köşelerini yuvarlatır */
+    cursor: pointer;
+    /* Butona üzerine gelindiğinde el işareti gösterir */
+    transition: background-color 0.3s;
+    /* Hover efekti için geçiş süresi ayarları */
+}
+
+.email button:hover {
+    background-color: #e64a19;
+    /* Hover durumunda butonun arka plan rengini değiştirir */
 }
 
 .download {
@@ -440,4 +452,80 @@ header {
     display: inline-block;
     margin: 15px 0;
 
+}
+
+.first img {
+    width: 128px;
+    height: 32px;
+}
+
+.sec-7 {
+    padding: 40px 120px;
+    background-color: rgb(244, 244, 253);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1 {
+    display: flex;
+}
+
+.first-1 span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.section div {
+    width: 200px;
+}
+
+.section h4 {
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+
+.section a {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.section img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4 i {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.third {
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.7rem;
 }
